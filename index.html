@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Krishna Mobiles | Mobile Phone Store</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+    <nav class="navbar">
+        <a href="index.html" class="logo">KRISHNA<span>MOBILES</span></a>
+
+        <button class="menu-btn" onclick="toggleMenu()">☰</button>
+
+        <ul class="nav-links" id="navLinks">
+            <li><a href="index.html" class="active">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<section class="hero">
+    <div class="hero-content">
+        <p class="tagline">SMARTPHONES • ACCESSORIES • SERVICE</p>
+        <h1>Find Your<br><span>Perfect Phone.</span></h1>
+
+        <p>
+            Explore the latest smartphones with great features,
+            stylish designs and excellent value.
+        </p>
+
+        <a href="#phones" class="btn">VIEW PHONES</a>
+    </div>
+</section>
+
+<section class="section" id="phones">
+
+    <div class="section-title">
+        <p>OUR COLLECTION</p>
+        <h2>Popular Smartphones</h2>
+    </div>
+
+    <div class="products">
+
+        <div class="phone-card">
+            <div class="phone-image">
+                <img src="https://images.unsplash.com/photo-1598327105666-5b89351aff97?auto=format&fit=crop&w=700&q=80" alt="Smartphone">
+            </div>
+            <div class="phone-info">
+                <h3>Premium Smartphone</h3>
+                <p>128GB • 5G • AMOLED Display</p>
+                <strong>₹24,999</strong>
+                <button class="buy-btn" onclick="showMessage('Premium Smartphone')">
+                    BUY NOW
+                </button>
+            </div>
+        </div>
+
+        <div class="phone-card">
+            <div class="phone-image">
+                <img src="https://images.unsplash.com/photo-1601784551446-20c9e07cdbdb?auto=format&fit=crop&w=700&q=80" alt="Mobile Phone">
+            </div>
+            <div class="phone-info">
+                <h3>Power Smartphone</h3>
+                <p>256GB • 5G • Dual Camera</p>
+                <strong>₹29,999</strong>
+                <button class="buy-btn" onclick="showMessage('Power Smartphone')">
+                    BUY NOW
+                </button>
+            </div>
+        </div>
+
+        <div class="phone-card">
+            <div class="phone-image">
+                <img src="https://images.unsplash.com/photo-1511707171634-5f897ff02aa9?auto=format&fit=crop&w=700&q=80" alt="Smartphone">
+            </div>
+            <div class="phone-info">
+                <h3>Classic Smartphone</h3>
+                <p>128GB • 5G • Fast Charging</p>
+                <strong>₹19,999</strong>
+                <button class="buy-btn" onclick="showMessage('Classic Smartphone')">
+                    BUY NOW
+                </button>
+            </div>
+        </div>
+
+        <div class="phone-card">
+            <div class="phone-image">
+                <img src="https://images.unsplash.com/photo-1556656793-08538906a9f8?auto=format&fit=crop&w=700&q=80" alt="Mobile Phone">
+            </div>
+            <div class="phone-info">
+                <h3>Pro Smartphone</h3>
+                <p>256GB • 5G • Pro Camera</p>
+                <strong>₹34,999</strong>
+                <button class="buy-btn" onclick="showMessage('Pro Smartphone')">
+                    BUY NOW
+                </button>
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="why-us">
+    <div>
+        <p class="tagline">KRISHNA MOBILES</p>
+        <h2>Trusted Since 1992</h2>
+        <p>
+            Quality phones, helpful service and customer satisfaction
+            have been our priorities for more than three decades.
+        </p>
+        <a href="about.html" class="btn dark-btn">ABOUT US</a>
+    </div>
+</section>
+
+<footer>
+    <div>
+        <h2>KRISHNA MOBILES</h2>
+        <p>Smartphones & Accessories</p>
+    </div>
+
+    <div>
+        <p>📞 7850900832</p>
+        <p>📍 Sarana Road, Kishangarh</p>
+    </div>
+
+    <div>
+        <p>© <span id="year"></span> Krishna Mobiles</p>
+    </div>
+</footer>
+
+<script src="style.js"></script>
+
+</body>
+</html>
